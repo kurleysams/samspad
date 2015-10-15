@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongoDB": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "teesams-dev",
+    "name": "mongoDB",
+    "connector": "mongodb",
+    "allowExtendedOperators": true
   }
 }
