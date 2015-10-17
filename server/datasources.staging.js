@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    mongoDataSource: {
+    mongoDB: {
         name: 'mongoDB',
         connector: 'mongodb',
         url: process.env.MONGOLAB_URI
