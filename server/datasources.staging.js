@@ -2,7 +2,7 @@
 
 module.exports = {
     mongoDataSource: {
-        name: 'mongoDataSource',
+        name: 'mongoDB',
         connector: 'mongodb',
         url: process.env.MONGOLAB_URI
     }
