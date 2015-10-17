@@ -33,11 +33,15 @@
     "dataSource": "mongoDB",
     "public": false
   },
-  "service": {
+  "Service": {
     "dataSource": "mongoDB",
     "public": true
   },
-  "message": {
+  "Message": {
+    "dataSource": "mongoDB",
+    "public": true
+  },
+  "Customer": {
     "dataSource": "mongoDB",
     "public": true
   }
