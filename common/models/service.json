@@ -9,6 +9,26 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "managerFirstName": {
+      "type": "string",
+      "required": true
+    },
+    "managerLastName": {
+      "type": "string",
+      "required": true
+    },
+    "streetName": {
+      "type": "string",
+      "required": true
+    },
+    "cityName": {
+      "type": "string",
+      "required": true
+    },
+    "service": {
+      "type": "Array",
+      "required": true
     }
   },
   "validations": [],
